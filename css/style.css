@@ -1,8 +1,11 @@
 body {
     background: linear-gradient(to right, rgb(151, 150, 240), rgb(251, 199, 212));
     font-family: 'Afacad', sans-serif;
-
+    background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/106/772/original/world-map.jpg?1702278219");
+    background-size: cover;
+    opacity: 0.8;
 }
+
 
 select {
     display: block;
@@ -23,16 +26,22 @@ h2{
 
 }
 footer {
+    max-width: 650px;
+    margin: 60px auto;
     text-align: center;
     font-size: 18px;
     color: rgba(0, 0, 0, 0.6);
+    color: black;
+    background: radial-gradient(1091px at 106.5% 111.5%, rgb(250, 246, 213) 0.1%, rgb(218, 147, 93) 42.2%, rgb(137, 86, 67) 74.3%, rgb(67, 39, 39) 100.2%);
+    border-radius: 10px;
+    
 
 }
-
 .container {
     max-width: 600px;
     margin: 60px auto;
-    background-color: white;
+    background-color: #f3bc77;
+    background: radial-gradient(1091px at 106.5% 111.5%, rgb(250, 246, 213) 0.1%, rgb(218, 147, 93) 42.2%, rgb(137, 86, 67) 74.3%, rgb(67, 39, 39) 100.2%);
     padding: 30px;
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3);
     border-radius: 10px;
