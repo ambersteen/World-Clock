@@ -3,13 +3,16 @@ body {
     font-family: 'Afacad', sans-serif;
 }
 
-
 select {
     display: block;
     width: 100%;
     font-size: 18px;
     padding: 10px;
-    border-radius: 4px;
+    border-radius: 10px;
+    color: rgba(0, 0, 0, 0.6);
+}
+select:hover {
+cursor: pointer;
 }
 
 h1 {
@@ -27,8 +30,8 @@ h2{
 button {
 margin: 0 auto;
 display: block;
-background-color:#F1C2D6;
-border-color: #a696c8;
+background-color:rgb(251, 199, 212);
+border-color: rgb(251, 199, 212);
 font-family: 'Afacad', sans-serif;
 transition: ease-in-out 200ms;
 border-radius: 10px;
@@ -36,8 +39,12 @@ border-radius: 10px;
 
 a {
 text-decoration: none;
+color: #ec729c;
+transition: ease-in-out 200ms;
 }
-
+a:hover {
+color: white;
+}
 footer {
     max-width: 650px;
     margin: 60px auto;
@@ -81,6 +88,6 @@ line-height: 36px;
 }
 button:hover{
 cursor: pointer;
-background-color: white;
-color: rgba(0, 0, 0, 0.6);
+background-color: #a696c8;
+border-color:#a696c8;
 }
