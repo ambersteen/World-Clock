@@ -24,6 +24,20 @@ h2{
     font-size: 32px;
 
 }
+button {
+margin: 0 auto;
+display: block;
+background-color:#F1C2D6;
+border-color: #a696c8;
+font-family: 'Afacad', sans-serif;
+transition: ease-in-out 200ms;
+border-radius: 10px;
+}
+
+a {
+text-decoration: none;
+}
+
 footer {
     max-width: 650px;
     margin: 60px auto;
@@ -64,4 +78,9 @@ font-weight: bold;
 font-size: 24px;
 vertical-align: middle;
 line-height: 36px;
+}
+button:hover{
+cursor: pointer;
+background-color: white;
+color: rgba(0, 0, 0, 0.6);
 }
